@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Álvaro García Anguita - Prácticas DAM Backend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #333;
+            --secondary-color: #555;
+            --link-color: #007bff;
+            --bg-color: #fff;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--primary-color);
+            background-color: #f4f4f4; 
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: var(--bg-color);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: var(--primary-color);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: var(--secondary-color);
+            margin: 5px 0 15px 0;
+        }
+
+        .contact-info {
+            font-size: 0.9em;
+            color: var(--secondary-color);
+        }
+        
+        .contact-info span, .contact-info a {
+            margin: 0 5px;
+            white-space: nowrap;
+        }
+        
+        .contact-info .separator {
+            color: var(--secondary-color);
+            margin: 0 2px;
+        }
+
+        .contact-info a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info a .icon {
+            margin-right: 3px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            color: var(--primary-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+            display: none;
+        }
+        header + hr {
+            display: block; 
+        }
+
+        .education-item, .skill-category {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3, .skill-category h3 {
+            font-size: 1.1em;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .detail {
+            color: var(--secondary-color);
+            font-size: 0.9em;
+            margin: 0 0 5px 0;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Álvaro García Anguita</h1>
+            <p class="subtitle">Estudiante DAM | Futuro Backend Developer (C# / .NET, Kotlin)</p>
+            <div class="contact-info">
+                <span>📍 Madrid</span>
+                <span class="separator">·</span>
+                <a href="mailto:contactalvaro58@gmail.com">contactalvaro58@gmail.com</a>
+                <span class="separator">·</span>
+                <span>📞 +34 601019647</span>
+                <span class="separator">·</span>
+                <a href="https://www.linkedin.com/in/alvaro-garcia-anguita-327a48250" target="_blank"><i class="fab fa-linkedin icon"></i>LinkedIn</a>
+                <span class="separator">·</span>
+                <a href="https://github.com/Supersanfer" target="_blank"><i class="fab fa-github icon"></i>GitHub</a>
+            </div>
+        </header>
+
+        <hr>
+
+        <section class="section">
+            <h2>Perfil Profesional</h2>
+            <p><b>Estudiante de DAM</b> con base sólida en SMR, centrado en ser <b>Backend Developer</b>. Mi stack incluye Java, C#, .NET, Kotlin y conocimientos en Python</p>
+            <p>Mi responsabilidad no es solo cumplir, sino garantizar la <strong>estabilidad</strong> de lo que construyo. Mi filosofía de trabajo se basa en <strong>KIT</strong> (Keep It Simple/Trivial): busco soluciones  <strong>limpias, modulares y escalables</strong> que <strong>prevengan problemas</strong> antes de que aparezcan. Busco mis prácticas FCT en Madrid.</p>
+        </section>
+
+        <section class="section projects">
+            <h2>Experiencia y Logros Destacados</h2>
+            <div class="education-item">
+                <h3>Participación en Piscina de 42 Madrid</h3>
+                <p class="detail"><b>Fundación Telefónica</b> | Madrid</p>
+                <ul>
+                    <li>Participación en la fase intensiva de <b>codificación algorítmica</b> (Lenguaje C) en el campus tecnológico 42.</li>
+                    <li>Prueba de <b>resistencia a la presión, autoaprendizaje</b> y resolución de problemas complejos.</li>
+                </ul>
+            </div>
+            <div class="education-item">
+                <h3>Técnico de Soporte IT – Erasmus SMR</h3>
+                <p class="detail"><b>Abril/2023 – Junio/2023</b> | Irlanda</p>
+                <ul>
+                    <li>Funciones de <b>Helpdesk de Nivel 1</b> y soporte a usuarios en inglés, demostrando capacidad de comunicación.</li>
+                    <li>Experiencia en <b>reparación y diagnóstico de hardware y software</b> en entornos profesionales.</li>
+                    <li>Demostración de autonomía, madurez y capacidad de adaptación en un entorno internacional.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skill-category">
+                <h3>Lenguajes y Frameworks (Backend)</h3>
+                <p><b>C#</b> (Base y .NET MAUI), <b>Kotlin</b> (Aplicaciones Multiplataforma), <b>Java</b> (Base), <b>Python</b> (Base).</p>
+            </div>
+            <div class="skill-category">
+                <h3>Bases de Datos</h3>
+                <p>PostgreSQL, MySQL (Diseño de Esquemas, consulta y mantenimiento)</p>
+            </div>
+            <div class="skill-category">
+                <h3>Metodología & Herramientas</h3>
+                <p>Git, GitHub, Metodologías Ágiles (Scrum, Kanban), Filosofía <b>KIT</b>, Principios S.O.L.I.D.</p>
+            </div>
+        </section>
+
+        <section class="section education">
+            <h2>Formación Académica</h2>
+
+            <div class="education-item">
+                <h3>Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                <p class="detail"><b>IES Rey Fernando VI</b> | Madrid | 2024 – Actualidad</p>
+                <ul>
+                    <li>Foco en Programación de Servicios, Bases de Datos Avanzadas y Desarrollo Backend.</li>
+                    <li>Preparación para el período de Prácticas FCT.</li>
+                </ul>
+            </div>
+
+            <div class="education-item">
+                <h3>Sistemas Microinformáticos y Redes (SMR)</h3>
+                <p class="detail"><b>IES Rey Fernando VI</b> | Madrid | 2022 – 2024</p>
+                <ul>
+                    <li>Base sólida en Sistemas Operativos (Windows/Linux) y Mantenimiento de Redes.</li>
+                    <li>Experiencia en diagnóstico de hardware y solución de problemas técnicos.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section misc">
+            <h2>Otros Datos de Interés</h2>
+            <div class="misc-item">
+                <h3>Idiomas</h3>
+                <p>Inglés: Nivel B2. (Práctica intensiva demostrada durante Erasmus en Irlanda).</p>
+            </div>
+            <div class="misc-item">
+                <h3>Disponibilidad</h3>
+                <p>Inmediata con carnet de conducir</p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
