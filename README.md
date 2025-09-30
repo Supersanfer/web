@@ -10,7 +10,7 @@ Más adelante actualizaré este curriculum con una página web más profesional 
 
 Puedes ver la versión web actualizada de mi CV:
 
-[Ver CV Online](https://supersanfer.github.io)
+[Ver CV Online](https://supersanfer.github.io/web/)
 
 ---
 
