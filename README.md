@@ -23,7 +23,7 @@ Mi experiencia se centra en la solidez del código y la arquitectura de aplicaci
 | **Lenguajes Backend** | **C#** (con .NET), **Kotlin**, **Java**, Python (base) |
 | **Bases de Datos** | PostgreSQL, MySQL (Diseño, consulta y mantenimiento) |
 | **Metodología** | Git, GitHub, Metodologías Ágiles (Scrum/Kanban), Principios S.O.L.I.D. |
-| **Filosofía** | Enfoque **KIT** (Keep It Simple/Trivial) para código limpio y escalable. |
+| **Filosofía** | Enfoque **KISS** (Keep It Simple Stupid) para código limpio y escalable. |
 
 ---
 
